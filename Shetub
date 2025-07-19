@@ -1,0 +1,27 @@
+# GitHub CLI api
+# https://cli.github.com/manual/gh_api
+
+gh api \
+  --method POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  /orgs/ORG/personal-access-token-requests \
+   -F "pat_request_ids[]=42" -F "pat_request_ids[]=73" -f 'action=deny' -f 'reason=Access is too broad.'
+https://cli.github.com/manual/gh_api
++# GitHub CLI api
+# https://cli.github.com/manual/gh_api
+
+gh api \
+  --method POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  /orgs/ORG/personal-access-token-requests \
+   -F "pat_request_ids[]=42" -F "pat_request_ids[]=73" -f 'action=deny' -f 'reason=Access is too broad.'
++++
+https://docs.github.com/?search-overlay-open=true&search-overlay-ask-ai=true&search-overlay-input=%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1
+.++
+++++
++. https://www.bitget.com/events/activities/new/f28eb87db4ab5b46b7b1b2abc9a9b3d3?clacCode=&color=dark name: Setup .NET Core SDK
+ 
+uses: actions/setup-dotnet@v4.3.1203.113.111.11203.113.111.18
++/ https://www.bitget.com/events/activities/new/f28eb87db4ab5b46b7b1b2abc9a9b3d3?clacCode=&color=darkhttps://docs.github.com/?search-overlay-open=true&search-overlay-ask-ai=true&search-overlay-input=%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1
